@@ -1,0 +1,25 @@
+<svg>
+  <text x="50%" y="50" class="medium-copy-bold">How do you feel?</text>
+  
+  <svg x="25" y="50%" height="70">
+    <use id="btn-bad" href="#push-button" width="30%">
+      <!--<set href="#text"  attributeName="text-buffer" to="Bad" />-->
+      <image width="80" height="80" href="sad.png">
+        <animate attributeName="opacity" begin="click" from="1" to="0.3" dur="0.1" final="restore" />
+      </image>
+    </use>
+    <use id="btn-neutral" href="#push-button" width="30%" x="$+5">
+      <!--<set href="#text"  attributeName="text-buffer" to="Neutral" />-->
+      <image width="80" height="80" href="neutral.png">
+        <animate attributeName="opacity" begin="click" from="1" to="0.3" dur="0.1" final="restore" />
+      </image>
+    </use>
+    <use id="btn-good" href="#push-button" width="30%" x="$+5">
+      <!--<set href="#text"  attributeName="text-buffer" to="Good" />-->
+      <image width="80" height="80" href="happy.png">
+        <animate attributeName="opacity" begin="click" from="1" to="0.3" dur="0.1" final="restore" />
+      </image>
+    </use>
+  </svg>
+  
+</svg>

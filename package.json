@@ -1,0 +1,25 @@
+{
+  "fitbit": {
+    "appUUID": "80191b95-aeb3-4dbc-8a03-3338621f44b1",
+    "appType": "app",
+    "appDisplayName": "MoodTrack",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#607d8b",
+    "requestedPermissions": [
+      "access_internet",
+      "run_background"
+    ],
+    "buildTargets": [
+      "higgs",
+      "meson"
+    ],
+    "i18n": {
+      "en": {
+        "name": "MoodTrack"
+      }
+    }
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~2.0.0"
+  }
+}
