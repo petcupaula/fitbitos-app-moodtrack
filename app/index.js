@@ -1,11 +1,5 @@
-/*
- * Entry point for the watch app
- */
-
 import document from "document";
 import * as messaging from "messaging";
-
-console.log("App code started");
 
 const btn_good = document.getElementById("btn-good");
 const btn_neutral = document.getElementById("btn-neutral");
